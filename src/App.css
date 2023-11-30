@@ -1,0 +1,26 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(228, 233, 236);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead th {
+  text-align: start;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
